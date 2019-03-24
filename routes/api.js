@@ -22,7 +22,7 @@ router.post('/signup', (req, res) => {
 	.then(data => {
 		
 		res.json({
-			confrimation: 'success',
+			confirmation: 'success',
 			data: data
 		});
 	})
